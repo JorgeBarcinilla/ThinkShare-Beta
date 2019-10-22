@@ -1,0 +1,10 @@
+.appnav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #494cdd
+}
+
+.link{
+    text-decoration: none !important;
+    cursor: pointer;
+}
