@@ -4,6 +4,7 @@ import { Provider } from 'react-redux';
 import { BrowserRouter, Route, Redirect, Switch } from 'react-router-dom';
 //import App from './App';
 import AppNav from './components/appNav';
+import AppBar from './components/appBar';
 import Profile from './components/profile';
 import Thinks from './components/thinks';
 
@@ -16,5 +17,5 @@ const Root = (
     </BrowserRouter>
 );
     
-render(<AppNav/>, document.getElementById('nav'));
-render(Root, document.getElementById('app'));
+render(<AppBar/>, document.getElementById('app'));
+//render(Root, document.getElementById('app'));
